@@ -1,0 +1,420 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+nav{
+display: flex;
+height: 20%;
+justify-content: space-between;
+align-items: center;
+background-color: whitesmoke;
+}
+.logo{
+    width: 20px;
+    height: 20%; 
+}
+
+.list-item{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+}
+.links{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.links:hover{
+    color: rgb(231, 66, 6);
+    text-decoration: underline;
+}
+#mainimg{
+    width: 100%;
+    height: 620px;
+}
+#about{
+    background-color: rgb(226, 241, 231);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.secondhead {
+    width: 95%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutcontent {
+    width: 100%;
+    height: 50%;
+    line-height: 2.1;
+}
+.abdiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtd{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.border{
+    margin-left: 10%;
+    width: 75%;
+    height: 100%;
+    font-family: "Kaushan Script", serif;
+    font-weight: 600;
+}
+.dm1{
+    width: 100%;
+    height: 100%;
+}
+#h1 {
+    margin-bottom: 10px;
+   margin-left: 30%;
+    font-size: 35px;
+    font-family: "Kaushan Script", serif;
+}
+#contness {
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    text-align: justify;
+}
+#Project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(56, 116, 120);
+    width: 100%;
+    height: 100vh;
+}
+.prj{
+    width: 60%;
+    height: 25%;
+}
+.prjc{
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+.prjct{
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+.plan{
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+.estimation{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+.Head{
+    font-family: "Kaushan Script", serif;
+}
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+}
+.projecthead{
+    width: 100%;
+    height: 10%;
+}
+span{
+    font-family: "Kaushan Script", serif;
+}
+#projectid{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Kaushan Script", serif;
+}
+.secondproject{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+
+.aboutimage {
+    width: 850px;
+    height: 100%;
+}
+#img3 {
+    width: 100%;
+    height: 100%;
+}
+.gallery{
+    width: 100%;
+    height: 100vh;
+}
+#destination{
+    background-color: rgb(226, 241, 231);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#pic{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan Script", serif;
+}
+.Gallery{
+    width: 90%;
+    height: 20%;
+}
+.destinationdiv {
+width: 90%;
+height: 70%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}   
+.firstsection {
+width: 30%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.secondsection {
+width: 30%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.thirdsection {
+width: 30%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.images {
+width: 100%;
+height: 45%;
+}
+.photos {
+width: 100%;
+height: 45%;
+}
+.imgtop{
+width: 100%;
+height: 100%;
+}
+.imgbottom {
+width: 100%;
+height: 100%;
+}
+.sizetop {
+width: 100%;
+height: 50%;
+}
+.sizebottom {
+width: 100%;
+height: 35%;
+}
+#blog{
+    background-color: rgb(98, 149, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.hblg{
+    width: 95%;
+    height: 10%;
+    font-family: "Kaushan Script", serif;
+}
+#Latest{
+    font-family: "Kaushan Script", serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.vdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 40%;
+}
+.size{
+    width: 30%;
+    height: 90%;
+}
+.vedio{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(226, 241, 231);
+}
+.footdiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+}
+.centers{
+    width: 25%;
+    height: 95%;
+}
+.numbers{
+    width: 15%;
+    height: 95%;
+}
+#num{
+    font-weight: 800;
+}
+#dates{
+    font-weight: 700;
+}
+#compony{
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Kaushan Script", serif;
+}
+#branch{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 700;
+}
+.follo{
+    width: 15%;
+    height: 95%;
+}
+.flogo{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logos{
+    width: 50%;
+    height: 95%;
+}
+#duty{
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Kaushan Script", serif;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 95%;
+}
+.iconcollections {
+    margin-right: 50px;
+    width: 20%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkf:hover {
+    color: white;
+}
+.icondiv {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60%;
+}
+.name {
+    font-size: 2.5rem;
+    color: black;
+}
+.iconss {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+#copy{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+.iconss:hover {
+    background-image: linear-gradient(to bottom right, red,blue);
+}
+.iconss:hover .name {
+    color: rgba( red,violet,);
+    animation: rotate 3s;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform: rotate(-30deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
